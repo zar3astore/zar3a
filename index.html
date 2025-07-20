@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<!DOCTYPE html><html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -11,62 +10,114 @@
       margin: 0;
       padding: 20px;
       color: #333;
-    }
-    header, footer {
-      text-align: center;
-      padding: 10px 0;
-      background-color: #2e7d32;
-      color: white;
-      border-radius: 8px;
-      margin-bottom: 20px;
-    }
-    section {
-      background-color: #e6f2e6;
-      border-radius: 12px;
-      padding: 20px;
-      max-width: 600px;
-      margin: 0 auto 30px auto;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-    section h2 {
-      color: #2e7d32;
-      margin-bottom: 15px;
-      text-align: center;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-    ul li {
-      background: white;
-      margin-bottom: 10px;
-      border-radius: 8px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-      transition: background-color 0.3s ease;
-    }
-    ul li a {
-      display: block;
-      padding: 12px 15px;
-      text-decoration: none;
-      color: #2e7d32;
-      font-weight: 600;
-      font-size: 1.1em;
-      border-radius: 8px;
-    }
-    ul li a:hover {
-      background-color: #c8e6c9;
-      color: #145214;
-    }
+    }header, footer {
+  text-align: center;
+  padding: 15px 0;
+  background-color: #2e7d32;
+  color: white;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+footer p, footer a {
+  margin: 5px 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  color: #388e3c;
+  margin-top: 40px;
+  font-size: 24px;
+  text-align: center;
+}
+
+section ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 0;
+}
+
+section ul li {
+  background-color: #ffffff;
+  margin: 10px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  list-style: none;
+  width: 200px;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+section ul li:hover {
+  background-color: #e8f5e9;
+}
+
+section ul li a {
+  text-decoration: none;
+  color: #2e7d32;
+  font-weight: bold;
+  font-size: 18px;
+  display: block;
+}
+
+.contact-info a:hover, .social-links a:hover {
+  text-decoration: underline;
+}
+
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  margin: 0 8px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.whatsapp-button {
+  display: inline-block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebd5b;
+}
+
+.about, .contact, .products, .shipping, .login {
+  max-width: 700px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.about h3, .contact h3, .products h3, .shipping h3, .login h3 {
+  color: #2e7d32;
+  margin-bottom: 10px;
+}
+
   </style>
-</head>
-<body>
-
-  <header>
+</head><body>  <header>
     <h1>🌿 مرحباً بكم في متجر زرعة</h1>
-  </header>
-
-  <section>
+  </header>  <section>
     <h2>🛒 الأقسام</h2>
     <ul>
       <li><a href="#">🪴 النباتات المنزلية</a></li>
@@ -77,11 +128,28 @@
       <li><a href="#">🧼 مستلزمات الزراعة النظيفة</a></li>
       <li><a href="#">📦 العروض والباقات</a></li>
     </ul>
-  </section>
-
-  <footer>
+  </section>  <section class="about">
+    <h3>من نحن</h3>
+    <p>نحن متجر زرعة، نوفر جميع مستلزمات الزراعة المنزلية والزراعة النظيفة بأعلى جودة وأسعار مناسبة. هدفنا هو تسهيل الزراعة لكل بيت.</p>
+  </section>  <section class="products">
+    <h3>منتجات مميزة</h3>
+    <p>💡 قريبًا سنعرض مجموعة من المنتجات المميزة مع الأسعار والتوصيل لجميع الإمارات.</p>
+  </section>  <section class="shipping">
+    <h3>معلومات الشحن والدفع</h3>
+    <p>🚚 الشحن متاح لجميع الإمارات خلال 2-4 أيام عمل. خيارات الدفع تشمل الدفع عند الاستلام والدفع الإلكتروني.</p>
+  </section>  <section class="login">
+    <h3>تسجيل الدخول</h3>
+    <p>🔐 تسجيل الدخول للعميل لمتابعة الطلبات والعروض. (سيتم تفعيله لاحقًا)</p>
+  </section>  <section class="contact">
+    <h3>تواصل معنا</h3>
+    <p>📞 الهاتف: <a href="tel:+971556380735">+971 55 638 0735</a></p>
+    <p>📧 البريد الإلكتروني: <a href="mailto:zar3a.store@gmail.com">zar3a.store@gmail.com</a></p>
+    <a class="whatsapp-button" href="https://wa.me/971556380735" target="_blank">💬 تواصل واتساب</a>
+  </section>  <footer>
     <p>حقوق النشر © 2025 متجر زرعة</p>
-  </footer>
-
-</body>
-</html>
+    <div class="social-links">
+      <a href="https://facebook.com" target="_blank">فيسبوك</a> |
+      <a href="https://instagram.com" target="_blank">إنستجرام</a>
+    </div>
+  </footer></body>
+</
